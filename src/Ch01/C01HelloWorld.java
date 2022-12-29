@@ -10,7 +10,7 @@ public class C01HelloWorld // 클래스 영역 - 객체 지향 문법 적용 단
 	{
 		
 		System.out.println("Hello World");
-		//괄호안의 것은 함수
+		//괄호안의 것은 함수kk
 
 	}
 
