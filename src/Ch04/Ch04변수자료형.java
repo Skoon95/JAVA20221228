@@ -113,14 +113,18 @@ public class Ch04변수자료형 {
 		//boolean : 논리형(true/false 저장)
 		//-------------------------------
 		
-		boolean flag = (10<5); //참(긍정)
-		if(flag) {
-			System.out.println("참인경우 실행");
-		}
-		else
-		{
-			System.out.println("거짓인경우 실행");
-		}
+//		boolean flag = (10<5); //참(긍정)
+//		if(flag) {
+//			System.out.println("참인경우 실행");
+//		}
+//		else
+//		{
+//			System.out.println("거짓인경우 실행");
+//		}
+		
+		
+
+
 
 	}
 
