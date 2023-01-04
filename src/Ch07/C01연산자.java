@@ -82,9 +82,10 @@ public class C01연산자 {
 		//삼항연산자
 		// (조건식)? 참인경우 실행코드 : 거짓인경우 실행코드;
 		
-		int score = 85;
-		char grade = (score > 90) ? 'A' : 'B';
-		System.out.println(score + "점은" + grade + "등급입니다");
+		int kor = 85;
+		int eng = 60;
+		char grade = (kor > 80 && eng> 80) ? 'A' : 'B';
+		System.out.println(grade + "등급입니다");
 
 	}
 
