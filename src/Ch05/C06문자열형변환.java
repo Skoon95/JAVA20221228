@@ -25,10 +25,10 @@ public class C06문자열형변환 {
 //		int n1 = Integer.parseInt("10");  //웹개발코드시 폼으로부터 전달받은 값은 다 문자열임.
 //		int n2 = Integer.parseInt("20");
 //		System.out.println(n1+n2);
-//		
-//		//문자열 -> 숫자형으로 변환(실수)
-//		double n3 =Double.parseDouble("10.5");
-//		double n4 =Double.parseDouble("20.4");
+////		
+////		//문자열 -> 숫자형으로 변환(실수)
+//	double n3 =Double.parseDouble("10.5");
+//    double n4 =Double.parseDouble("20.4");
 //		System.out.println(n3 +n4);
 //		
 //		short n5 = Short.parseShort("5");
@@ -57,11 +57,11 @@ public class C06문자열형변환 {
 //		double value4 =Double.parseDouble("3.14159");
 		
 		
-		int x = 5;
-		int y = 2;
-		int result = x/y;
-		System.out.println(result);
-		
+//		int x = 5;
+//		int y = 2;
+//		int result = x/y;
+//		System.out.println(result);
+//		
 
 		
 		
