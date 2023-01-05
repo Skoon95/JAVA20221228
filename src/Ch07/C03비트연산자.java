@@ -7,7 +7,7 @@ public class C03비트연산자 {
 		int num2 =20;
 		int num3 =num1&num2;
 		int num4 =num1|num2;
-		int num5 =num1^num2;
+		int num5 =num1^num2; 
 		int num6 =~num1;
 		
 		System.out.println("AND 비트 연산 결과 :" + num3);
