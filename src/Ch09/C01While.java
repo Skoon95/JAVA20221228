@@ -138,7 +138,7 @@ public class C01While {
 		while(i<=n) {
 			
 			if(i%4==0) 
-				System.out.printf("1부터  값 %d 까지 수 중 4의 배수: %d\n",n,i);
+				System.out.printf("1부터 %d 까지 수 중 4의 배수: %d\n",n,i);
 			
 			i++;
 				
