@@ -101,20 +101,20 @@ public class C02While {
 		
 		//높이 입력: 7
 		//높이만큼의 직각삼각형별이 출력되도록합니다
-		Scanner sc= new Scanner(System.in);
-		int i=0; //줄바꿈
-		int j=0;
-		int h=sc.nextInt();
-		
-		while(i<h) {
-			j=0;
-			while(j<=i) {
-				System.out.print("*");
-				j++;
-			}
-			System.out.println();
-			i++;
-		}
+//		Scanner sc= new Scanner(System.in);
+//		int i=0; //줄바꿈
+//		int j=0;
+//		int h=sc.nextInt();
+//		
+//		while(i<h) {
+//			j=0;
+//			while(j<=i) {
+//				System.out.print("*");
+//				j++;
+//			}
+//			System.out.println();
+//			i++;
+//		}
 		
 		
 		//3
@@ -123,6 +123,37 @@ public class C02While {
 //		**
 //		*
 		
+//    	int i=0; //줄바꿈
+//		int j=0;
+//		
+//		while(i<4) {
+//			j=0;
+//			while(j<=3-i) {
+//				System.out.print("*");
+//				j++;
+//			}
+//			System.out.println();
+//			i++;
+//		}
+		
+		
+		//높이 입력받으면 3
+		Scanner sc= new Scanner(System.in);
+		int h=sc.nextInt();
+    	int i=0; //줄바꿈
+		int j=0;
+	
+		
+		while(i<=h) {
+			j=0;
+			while(j<h-i) {
+				System.out.print("*");
+				j++;
+			}
+			System.out.println();
+			i++;
+		}
+		
 		
 		
 		//4
@@ -130,6 +161,7 @@ public class C02While {
 //		 ***
 //	    *****
 //	   *******
+		
 		
 		
 		
