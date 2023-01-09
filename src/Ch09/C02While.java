@@ -138,21 +138,21 @@ public class C02While {
 		
 		
 		//높이 입력받으면 3
-		Scanner sc= new Scanner(System.in);
-		int h=sc.nextInt();
-    	int i=0; //줄바꿈
-		int j=0;
-	
-		
-		while(i<=h) {
-			j=0;
-			while(j<h-i) {
-				System.out.print("*");
-				j++;
-			}
-			System.out.println();
-			i++;
-		}
+//		Scanner sc= new Scanner(System.in);
+//		int h=sc.nextInt();
+//    	int i=0; //줄바꿈
+//		int j=0;
+//	
+//		
+//		while(i<=h) {
+//			j=0;
+//			while(j<h-i) {
+//				System.out.print("*");
+//				j++;
+//			}
+//			System.out.println();
+//			i++;
+//		}
 		
 		
 		
@@ -161,11 +161,41 @@ public class C02While {
 //		 ***
 //	    *****
 //	   *******
+		int i=0; //개행
+		int j=0; //공백
+		int k=0; //별찍기
+		
+		while(i<4) {
+			//공백
+			j=0;
+			while(j<=2-i)
+			{
+				System.out.print(" ");
+				j++;
+			}
+			//별
+			k=0;
+			while(k<=2*i) 
+			{
+				System.out.print("*");
+				k++;
+			}
+			System.out.println();	
+			i++;
+		}
+		
+		
+
+		//5
+//     *******		
+//      *****		
+//       ***		
+//        *		
 		
 		
 		
-		
-		
+		//6  삼각형 입력
+		//7 역삼각형 입력
 		
 		
 	}
