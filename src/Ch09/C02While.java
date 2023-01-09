@@ -1,5 +1,7 @@
 package Ch09;
 
+import java.util.Scanner;
+
 public class C02While {
 
 	public static void main(String[] args) {
@@ -60,7 +62,80 @@ public class C02While {
 		
 		
 		//N,M을 입력받아 N부터 M단까지 출력(N<M and N<8 and M<=9)
-
+		
+		//1
+		//*****
+		//*****
+		//*****
+		//*****
+//		int i=0; //줄바꿈
+//		int j=0;
+//		
+//		while(i<4) {
+//			j=0;
+//			while(j<5) {
+//				System.out.print("*");
+//				j++;
+//			}
+//			System.out.println();
+//			i++;
+//		}
+		
+		//2
+//		*
+//		**
+//		***
+//		****
+//		int i=0; //줄바꿈
+//		int j=0;
+//		
+//		while(i<4) {
+//			j=0;
+//			while(j<=i) {
+//				System.out.print("*");
+//				j++;
+//			}
+//			System.out.println();
+//			i++;
+//		}
+		
+		//높이 입력: 7
+		//높이만큼의 직각삼각형별이 출력되도록합니다
+		Scanner sc= new Scanner(System.in);
+		int i=0; //줄바꿈
+		int j=0;
+		int h=sc.nextInt();
+		
+		while(i<h) {
+			j=0;
+			while(j<=i) {
+				System.out.print("*");
+				j++;
+			}
+			System.out.println();
+			i++;
+		}
+		
+		
+		//3
+//		****
+//		***
+//		**
+//		*
+		
+		
+		
+		//4
+//		  *
+//		 ***
+//	    *****
+//	   *******
+		
+		
+		
+		
+		
+		
 	}
 
 }
