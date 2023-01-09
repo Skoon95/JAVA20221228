@@ -111,13 +111,13 @@ public class C01While {
 //		}
 		
 		//구구단(N단)
-		Scanner sc = new Scanner(System.in);
-		int dan = sc.nextInt();
-		int r=1;
-		while(r<=9) {
-			System.out.printf("%d x %d = %d\n",dan,r,dan*r);
-			r++;
-		}
+//		Scanner sc = new Scanner(System.in);
+//		int dan = sc.nextInt();
+//		int r=1;
+//		while(r<=9) {
+//			System.out.printf("%d x %d = %d\n",dan,r,dan*r);
+//			r++;
+//		}
 		//1부터 10까지 수중의 4의 배수만 출력
 //		int i= 1;
 //	
@@ -132,18 +132,31 @@ public class C01While {
 	  //1부터 N까지 수중의 4의 배수만 출력
 //		Scanner sc = new Scanner(System.in);
 		
-		int i=1;
-		int n=sc.nextInt();
-		
-		while(i<=n) {
-			
-			if(i%4==0) 
-				System.out.printf("1부터 %d 까지 수 중 4의 배수: %d\n",n,i);
-			
-			i++;
+//		int i=1;
+//		int n=sc.nextInt();
+//		
+//		while(i<=n) {
+//			
+//			if(i%4==0) 
+//				System.out.printf("1부터 %d 까지 수 중 4의 배수: %d\n",n,i);
+//			
+//			i++;
 				
+	//	}
+		//1 부터 100까지 수중에 3의 배수의 합만 출력
+		Scanner sc= new Scanner(System.in);
+		int n = sc.nextInt();
+		int i=1;
+		int sum=0;
+		while(i<=n)
+		{
+			if(i%3==0) {
+				System.out.println("i : "+ i);
+				sum+=i;; //sum =sum+i;
+			}
+			i++;
 		}
-		
+		System.out.println("합 :" + sum);
 		
 		
 	}
