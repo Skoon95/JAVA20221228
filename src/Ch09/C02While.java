@@ -161,14 +161,50 @@ public class C02While {
 //		 ***
 //	    *****
 //	   *******
+//		int i=0; //개행
+//		int j=0; //공백
+//		int k=0; //별찍기
+//		
+//		while(i<4) {
+//			//공백
+//			j=0;
+//			while(j<=2-i)
+//			{
+//				System.out.print(" ");
+//				j++;
+//			}
+//			//별
+//			k=0;
+//			while(k<=2*i) 
+//			{
+//				System.out.print("*");
+//				k++;
+//			}
+//			System.out.println();	
+//			i++;
+//		}
+		
+		
+
+		//5
+//     *******		
+//      *****		
+//       ***		
+//        *		
+		
+		
+		
+		//6  삼각형 입력
+		Scanner sc= new Scanner(System.in);
+		int h =sc.nextInt();
 		int i=0; //개행
 		int j=0; //공백
 		int k=0; //별찍기
 		
-		while(i<4) {
+		while(i<h) {
 			//공백
 			j=0;
-			while(j<=2-i)
+			while(j<=(h-2)-i)
 			{
 				System.out.print(" ");
 				j++;
@@ -184,17 +220,6 @@ public class C02While {
 			i++;
 		}
 		
-		
-
-		//5
-//     *******		
-//      *****		
-//       ***		
-//        *		
-		
-		
-		
-		//6  삼각형 입력
 		//7 역삼각형 입력
 		
 		
