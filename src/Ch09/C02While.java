@@ -191,12 +191,63 @@ public class C02While {
 //      *****		
 //       ***		
 //        *		
+
+//		int i=0; //개행
+//		int j=0; //공백
+//		int k=0; //별찍기
+//		
+//		while(i<4) {
+//			//공백
+//			j=0;
+//			while(j<=i-1)
+//			{
+//				System.out.print(" ");
+//				j++;
+//			}
+//			//별
+//			k=0;
+//			while(k<=3*2-2*i) 
+//			{
+//				System.out.print("*");
+//				k++;
+//			}
+//			System.out.println();	
+//			i++;
+//		}
+		
+		
 		
 		
 		
 		//6  삼각형 입력
+//		Scanner sc= new Scanner(System.in);
+//		int h =sc.nextInt();
+//		int i=0; //개행
+//		int j=0; //공백
+//		int k=0; //별찍기
+//		
+//		while(i<h) {
+//			//공백
+//			j=0;
+//			while(j<=(h-2)-i)
+//			{
+//				System.out.print(" ");
+//				j++;
+//			}
+//			//별
+//			k=0;
+//			while(k<=2*i) 
+//			{
+//				System.out.print("*");
+//				k++;
+//			}
+//			System.out.println();	
+//			i++;
+//		}
+		
+		//7 역삼각형 입력
 		Scanner sc= new Scanner(System.in);
-		int h =sc.nextInt();
+		int h=sc.nextInt();
 		int i=0; //개행
 		int j=0; //공백
 		int k=0; //별찍기
@@ -204,14 +255,14 @@ public class C02While {
 		while(i<h) {
 			//공백
 			j=0;
-			while(j<=(h-2)-i)
+			while(j<=i-1)
 			{
 				System.out.print(" ");
 				j++;
 			}
 			//별
 			k=0;
-			while(k<=2*i) 
+			while(k<=(h-1)*2-2*i) 
 			{
 				System.out.print("*");
 				k++;
@@ -219,8 +270,6 @@ public class C02While {
 			System.out.println();	
 			i++;
 		}
-		
-		//7 역삼각형 입력
 		
 		
 	}
