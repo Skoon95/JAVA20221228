@@ -8,23 +8,6 @@ class C14Person{
 	double weight;
 	
 	//기능(멤버함수)
-	C14Person(String name)
-	{
-		this.name=name;
-	}
-	
-	C14Person(String name,int age)
-	{
-		this.name=name;
-		this.age=age;
-	}
-	
-	C14Person(String name,int age,float height)
-	{
-		this.name=name;
-		this.age=age;
-		this.height=height;
-	}
 	
 	C14Person(String name,int age,float height,double weight)
 	{
@@ -33,6 +16,8 @@ class C14Person{
 		this.height=height;
 		this.weight=weight;
 	}
+	
+	
 
 	@Override
 	public String toString() {
