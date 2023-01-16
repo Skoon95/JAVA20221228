@@ -16,6 +16,13 @@ public class C04MultuiArray {
 		System.out.println("arr2의 1번쨰 요소 길이 : " +arr2[1].length);
 		System.out.println("arr2의 2번쨰 요소 길이 : " +arr2[2].length);
 		System.out.println("arr2의 3번쨰 요소 길이 : " +arr2[3].length);
+		
+		for(int [] ar : arr2) {
+			for(int n : ar) {
+				System.out.print(n+" ");
+			}
+			System.out.println();
+		}
 
 	}
 
